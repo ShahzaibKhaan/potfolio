@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <section id="contact">
+  <h1 style="font-size: 4rem; display: flex; justify-content: center;"  >Contact Me</h1><br>
+  <p>If you have any questions, want to work together, or just want to say hello — feel free to reach out. I’ll get back to you as soon as possible!</p>
+
+  <div class="contact-container">
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <label for="name" style="font-size: large;">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email" style="font-size: large;">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message" style="font-size: large;">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3 style="color: #007bff ;">My Info</h3><br>
+       <p><strong>Email:</strong> 
+      <a href="mailto:shahzenkhaan@gmail.com" target="_blank"  > shahzenkhaan@gmail.com</a><br>
+       </p>
+      <p><strong>Location:</strong> 
+        <a href="https://www.google.com/maps/place/Karachi,+Pakistan" target="_blank" > Karachi, Pakistan</a><br> 
+       </p>
+        <p><strong>Contact:</strong> 
+      <a href="tel:+923092885092" target="_blank"> +92 3092885092</a>
+       </p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

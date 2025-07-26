@@ -51,6 +51,12 @@ section{
     margin-left: 4rem;
     transition: .3s;
 }
+.intro{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
 .navbar a:hover,
 .navbar a.active{
     color: var(--main-color);
@@ -118,4 +124,121 @@ span{
 }
 .btn:hover{
     box-shadow: none;
+}
+/* contact */
+#contact {
+  padding: 40px;
+  background-color: #323946;
+  color: #ffffff;
+}
+#contact p{
+    font-size: 1.9rem;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+form {
+  flex: 1;
+  min-width: 300px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  min-width: 250px;
+  color: rgb(0, 0, 0);
+  background-color:#ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.contact-info a{
+    color: #000;
+}
+/* service */
+.services-container {
+    color: #000;
+  display: grid;
+  font-size: medium;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+/* about */
+#about {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Background white (changeable) */
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #007bff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* #about h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #007bff;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 5px;
+} */
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#about strong {
+  color: #000;
+  font-weight: bold;
 }
